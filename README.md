@@ -1,5 +1,16 @@
 # jwt_refreshToken
 
+#### Install redis
+```
+ Using redis on docker
+ Setup redis :
+   - docker pull redis
+   - docker run --name my-redis-container -d redis
+ Connect to redis cli(if you want to chack the keys):
+   - docker exec -it your_container_id sh ( "docker ps" for check container id )
+   - redis-cli
+```
+
 #### Add .env file 
 ```
  ACCESS_SECRET = YOUR_ACCESS_SECRET_KEY
